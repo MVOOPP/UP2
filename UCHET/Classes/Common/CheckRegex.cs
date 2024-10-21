@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace UCHET.Classes.Common
 {
     public class CheckRegex
-    {
+    { 
         public static bool Match(string Pattern, string Input)
         {
             Match m = Regex.Match(Input, Pattern);
