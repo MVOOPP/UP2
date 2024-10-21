@@ -24,7 +24,7 @@ namespace UCHET.Classes
                 AllStories.Add(new StoryContext(
                     Data.GetInt32(0),
                     Data.GetInt32(1),
-                    Data.GetInt32(2),
+                    Data.GetInt32(2), 
                     Data.GetInt32(3),
                     Data.GetDateTime(4),
                     Data.GetInt32(5),
