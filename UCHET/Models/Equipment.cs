@@ -8,7 +8,7 @@ namespace UCHET.Models
     {
         public int Id { get; set; }
         public int Id_user { get; set; }
-        public int Id_classroom { get; set; }
+        public int Id_classroom { get; set; } 
         public int Id_status { get; set; }
         public string Name { get; set; }
         public byte[] Photo { get; set; }

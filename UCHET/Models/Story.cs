@@ -19,7 +19,7 @@ namespace UCHET.Models
             this.Id = Id;
             this.Id_pc = Id_pc;
             this.Code_Old = Code_Old;
-            this.Code_New = Code_New;
+            this.Code_New = Code_New; 
             this.User_Old = User_Old;
             this.User_New = User_New;
             this.Comment = Comment;
