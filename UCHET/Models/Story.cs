@@ -11,8 +11,8 @@ namespace UCHET.Models
         public int Code_Old { get; set; }
         public int Code_New { get; set; }
         public DateTime Data { get; set; }
-        public int User_Old { get; set; }
-        public int User_New { get; set; }
+        public int User_Old { get; set; } 
+        public int User_New { get; set; } 
         public string Comment { get; set; }
         public Story(int Id, int Id_pc, int Code_Old, int Code_New, DateTime Data, int User_Old, int User_New, string Comment)
         {
