@@ -8,7 +8,7 @@ namespace UCHET.Models
     {
         public int Id { get; set; }
         public int Id_pc { get; set; }
-        public int Code_Old { get; set; }
+        public int Code_Old { get; set; } 
         public int Code_New { get; set; }
         public DateTime Data { get; set; } 
         public int User_Old { get; set; }   
